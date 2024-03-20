@@ -10,7 +10,7 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: cover;
-      width: 90vw;
+      width: 60vw; 
       border: 5px burlywood solid;
       margin: 30px auto;
     }
@@ -20,8 +20,7 @@
       padding: 10px;
     }
 
-    header .container h1,
-    p {
+    header .container h1, p {
       margin: 0;
       color: #fff;
     }
@@ -46,13 +45,14 @@
 
     header .menu1 li {
       margin: 0;
-      width: 10vw;
+      width: 7vw;
     }
 
     header .menu1 li a {
       color: #891652;
       font-weight: bold;
-      padding: 5px;
+      height: 30px;
+      line-height: 30px;
       display: block;
     }
 
@@ -60,14 +60,8 @@
       background-color: #891652;
       padding: 5px;
     }
-
-    a:hover {
-      background-color: red;
-      color: #fff;
-    }
-
     main {
-      height: 450px;
+      height: 480px;
       display: flex;
       justify-content: space-evenly;
     }
@@ -95,6 +89,7 @@
 
     main article .container2 li {
       margin-bottom: 5px;
+      padding: 3px;
     }
 
     main article .container2 li:nth-child(1) {
@@ -108,42 +103,65 @@
     }
 
     main article .box {
-      width: 200px;
+      width: 250px;
     }
 
     main aside {
       width: 30vw;
       background-color: #fff;
+      display: flex;
+      flex-direction: column;
     }
 
     main aside .menu2 a {
       color: inherit;
       border-bottom: 1px solid red;
       display: block;
-      padding: 5px;
-      height: calc(50);
+      padding: 10px;
     }
 
     main h2 {
       color: red;
-      padding: 5px;
+      padding: 10px;
     }
 
     .menu3 {
       font-weight: bold;
+      padding: 10px;
     }
 
     img {
       width: 100%;
     }
+    div.container img {
+      width: 10%;
+    }
+    div.container {
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+    }
+    .wrapper {
+      padding: 0 5px;
+      font-style: italic;
+    }
+    
+    ul > li a:hover {
+      background-color: red;
+      color: #fff;
+    }
+
   </style>
 </head>
 
 <body>
   <header>
     <div class="container">
-      <h1>Kim's Kitchen</h1>
-      <p>Cooking Class</p>
+      <img src="./images/240320/4.png" alt="logo">
+      <div class="wrapper">
+        <h1>Kim's Kitchen</h1>
+        <p>Cooking Class</p>
+      </div>
     </div>
 
     <ul class="menu1">
