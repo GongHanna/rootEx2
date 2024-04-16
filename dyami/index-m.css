@@ -2,7 +2,7 @@
 /* https://placehold.co/414x797/0C2D57/fff?text=img1 */
 
 
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   /* section1 main-img */
   .img-wrapper1 {
     height: 797px;
