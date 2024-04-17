@@ -215,7 +215,6 @@ header .pagination {
 .contact .contact-wrapper .e-mail {
   padding-bottom: 0;
 }
-/* contact-Human Resources */
 .contact .contact-list {
   color: #fff;
   display: grid;
@@ -237,9 +236,10 @@ header .pagination {
   width: 87px; height: 30px;
   line-height: 30px;
 }
+/* contact-Human Resources */
 .contact .contact-txt-box {
   color: #fff;
-  padding: 42px 0 57px 14px;
+  padding: 42px 35px 57px 14px;
 }
 .contact .contact-txt-box h2 {
   font-size: 13px;
