@@ -104,6 +104,9 @@ header .pagination {
   font-weight: 300;
   padding: 29px 27px 40px;
   line-height: 1.6;
+  margin: 0 auto;
+  width: 325px;
+  text-align: left;
 }
 .brand .brand-wrapper .btn {
   font-size: 14px;
