@@ -119,6 +119,7 @@ header .pagination {
   justify-content: center;
 }
 .brand .brand-list li {
+  width: calc(100% / 3);
   border-right: 1px solid #66696e;
   padding: 34px 30px;
 }
