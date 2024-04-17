@@ -23,7 +23,7 @@ header .header-wrapper {
 }
 header .header-wrapper h1 {
   position: absolute;
-  top: 10px; left: 8px;
+  top: 3px; left: 8px;
 }
 /* gnb-menu */
 header .gnb-menu {
@@ -169,7 +169,7 @@ header .pagination {
   font-size: 16px;
   background-color: rgba(0, 55, 137, 0.5);
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   padding: 20px 12px 13px 0;
   text-align: right;
   position: absolute;
@@ -193,6 +193,7 @@ header .pagination {
   color: #fff;
   padding: 76px 0 22px;
   position: relative;
+  font-weight: 900;
 }
 .contact .contact-wrapper .title::after {
   content: "";
