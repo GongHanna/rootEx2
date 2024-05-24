@@ -22,7 +22,7 @@ $(document).mousemove(function (event) {
 });
 
 // 메인 페이지 드래그 이벤트
-$(".draggable").draggable();
+$('.draggable').draggable();
 
 
 // 스크롤 이벤트
@@ -40,22 +40,22 @@ $(window).on('scroll', () => {
   if (scrollY > brandHt) {
     $('.event-wrapper .event-box .event-title').addClass('scroll');
 
-    const waveElements = document.querySelectorAll(".wave-text");
+    const waveElements = document.querySelectorAll('.wave-text');
 
     let delay = 0;
     waveElements.forEach((wave) => {
       const text = wave.textContent;
-      wave.innerHTML = "";
+      wave.innerHTML = '';
 
-      text.split("").forEach((letter) => {
+      text.split('').forEach((letter) => {
 
-        const span = document.createElement("span");
+        const span = document.createElement('span');
 
         span.textContent = letter;
 
-        if (letter !== " ") {
+        if (letter !== ' ') {
           span.style.animationDelay = `${delay}ms`;
-          span.classList.add("letter");
+          span.classList.add('letter');
           delay += 40; // 각 문자당 50ms 딜레이
         }
 
@@ -132,10 +132,10 @@ const autoSlide = () => {
 // 뷰포트의 너비가 변경될 때마다 자동 슬라이드 상태 업데이트
 $(window).on('resize', function () {
   if (800 >= $(window).width()) {
-    clearInterval(mainSlide); // 슬라이드 중단
-    mainSlide = setInterval(autoSlide, 3000); // 슬라이드 시작
+    clearInterval(mainSlide);
+    mainSlide = setInterval(autoSlide, 3000);
   } else {
-    clearInterval(mainSlide); // 슬라이드 중단
+    clearInterval(mainSlide);
   }
 }).trigger('resize'); // 페이지 로드시 한번 실행
 
