@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rootEx2/build/static/css/main.bef4717d.css",
-    "main.js": "/rootEx2/build/static/js/main.58db3c82.js",
+    "main.js": "/rootEx2/build/static/js/main.cf1dc5ab.js",
     "static/media/AppleSDGothicNeoEB.woff": "/rootEx2/build/static/media/AppleSDGothicNeoEB.364b00ea09cf2c540ba9.woff",
     "static/media/AppleSDGothicNeoR.woff": "/rootEx2/build/static/media/AppleSDGothicNeoR.3fa7eed2d16d2eb546c9.woff",
     "static/media/home-slide03.png": "/rootEx2/build/static/media/home-slide03.41060f988c88d47ca5a8.png",
@@ -15,10 +15,10 @@
     "static/media/profile.png": "/rootEx2/build/static/media/profile.3f5cf08378b1e0c23667.png",
     "index.html": "/rootEx2/build/index.html",
     "main.bef4717d.css.map": "/rootEx2/build/static/css/main.bef4717d.css.map",
-    "main.58db3c82.js.map": "/rootEx2/build/static/js/main.58db3c82.js.map"
+    "main.cf1dc5ab.js.map": "/rootEx2/build/static/js/main.cf1dc5ab.js.map"
   },
   "entrypoints": [
     "static/css/main.bef4717d.css",
-    "static/js/main.58db3c82.js"
+    "static/js/main.cf1dc5ab.js"
   ]
 }
